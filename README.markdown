@@ -1,10 +1,18 @@
-Description of the problem
-==========================
+Problem resolved
+================
+
+Upgraded to JQuery 1.6 and used $(checkbox).props('checked') rather than attr.  Useful discussion at: http://api.jquery.com/prop/
+
+
+Description of the original problem
+===================================
 
 Use of a custom JavaScript function to enable or disable a number of checkboxes by class name, using JQuery 1.4, appears to have different behaviour when called inside a Lift app then when called outside a Lift app.
 
 Running the example
 ===================
+
+Prior to commit 5a43eaf86ecb4b032355 ....
 
 This Lift 2.3 SBT project contains:
 
