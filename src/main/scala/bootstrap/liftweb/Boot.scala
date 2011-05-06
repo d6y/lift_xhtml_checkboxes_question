@@ -71,6 +71,8 @@ class Boot {
     // Use jQuery 1.4
     LiftRules.jsArtifacts = net.liftweb.http.js.jquery.JQuery14Artifacts
 
+  //LiftRules.useXhtmlMimeType = false
+
     // Make a transaction span the whole HTTP request
     S.addAround(DB.buildLoanWrapper)
   }
