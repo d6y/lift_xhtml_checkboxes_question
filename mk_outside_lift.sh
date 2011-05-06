@@ -1,0 +1,1 @@
+curl http://127.0.0.1:8080/ | sed 's/\/foo.js/http:\/\/127.0.0.1:8080\/foo.js/g' | sed 's/\/classpath\/jquery.js/http:\/\/127.0.0.1:8080\/classpath\/jquery.js/g' > out.html

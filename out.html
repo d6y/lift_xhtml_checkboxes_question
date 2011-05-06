@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:lift="http://liftweb.net/" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+    <title>App:  Home</title>
+    
+      <link href="/classpath/blueprint/screen.css" type="text/css" rel="stylesheet" media="screen, projection" />
+      <link href="/classpath/blueprint/print.css" type="text/css" rel="stylesheet" media="print" />
+    
+  <!--[if IE]><link rel="stylesheet" href="/classpath/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    
+    <link href="/classpath/blueprint/plugins/fancy-type/screen.css" type="text/css" rel="stylesheet" media="screen, projection" />
+    <script type="text/javascript" src="http://127.0.0.1:8080/classpath/jquery.js" id="jquery"></script>
+    <script type="text/javascript" src="/classpath/json.js" id="json"></script>
+    <script type="text/javascript" src="http://127.0.0.1:8080/foo.js" id="fooscript"></script>
+    <style type="text/css">
+/* <![CDATA[ */
+.edit_error_class {
+  display: block;
+  color: red;
+}
+
+.sidebar ul {
+	margin:0;
+	padding:0;
+	border-bottom:1px solid #ccc;
+}
+	 
+
+.sidebar ul li {
+	margin:0;
+	padding:0;
+	list-style:none;
+	border:1px solid #ccc;
+	border-bottom:none;
+}
+
+.sidebar ul li a {
+	display:block;
+	padding:3px;
+	text-indent:30px;
+	text-decoration:none;
+}
+
+.sidebar ul li span {
+	display:block;
+	padding:3px;
+	text-indent:30px;
+	text-decoration:none;
+}
+
+.sidebar ul li a:hover {
+	background-color: #eee;
+}
+
+
+  /* ]]> */
+  </style>
+  
+	
+</head>
+<body>
+    <div class="container">
+      <div style="text-align: right" class="column span-12 last">
+        <h1 class="alt">app<img src="/images/ajax-loader.gif" style="display:none; margin-bottom: 0px; margin-left: 5px" id="ajax-loader" alt="" /></h1>
+      </div>
+
+      <hr />
+
+      <div class="column span-6 colborder sidebar">
+        <hr class="space" />
+
+	<ul><li> <span>Home</span></li><li> <a href="/user_mgt/login">Login</a></li><li> <a href="/user_mgt/sign_up">Sign Up</a></li><li> <a href="/user_mgt/lost_password">Lost Password</a></li><li> <a href="/static/index">Static Content</a></li></ul>
+
+        <div id="lift__noticesContainer__"></div>
+        <hr class="space" />
+      </div>
+
+      <div class="column span-17 last">
+        <div id="main">
+      <h2>Welcome to your project!</h2>
+      <div>
+       <ul>
+        <li><input onclick="toggleClass(this)" type="checkbox" class="foo" /> A</li>
+        <li><input onclick="toggleClass(this)" type="checkbox" class="foo" /> B</li>
+        <li><input onclick="toggleClass(this)" type="checkbox" class="foo" /> C</li>
+       </ul>
+      </div>
+    </div>
+      </div>
+
+      <hr />
+      <div style="text-align: center" class="column span-23 last">
+        <h4 class="alt">
+          <a href="http://www.liftweb.net"><i>Lift</i></a> 
+	  is Copyright 2007-2011 WorldWide Conferencing, LLC.
+	  Distributed under an Apache 2.0 License.</h4>
+      </div>
+    </div>
+  <script type="text/javascript" src="/ajax_request/liftAjax.js"></script>
+
+	
+<script type="text/javascript">
+// <![CDATA[
+
+var lift_page = "F945174949463F1J2T3";
+// ]]>
+</script></body>
+</html>  
+  
